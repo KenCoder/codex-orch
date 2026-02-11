@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-background text-foreground;
+  margin: 0;
+}
